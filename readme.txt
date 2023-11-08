@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Percent to Fraction Calculator](https://www.calculator.io/percent-to-fraction-calculator/ "Percent to Fraction Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_percent_to_fraction_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Percent to Fraction Calculator to the sidebar through the `Appearance -> Widgets -> Percent to Fraction Calculator` menu in WordPress.
+* Add the shortcode `[ci_percent_to_fraction_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_percent_to_fraction_calculator(); ?>` to your template where you would like the Percent to Fraction Calculator to appear.
 
 == Screenshots ==
