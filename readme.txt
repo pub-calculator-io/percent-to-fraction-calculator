@@ -13,6 +13,8 @@ The percent to fraction calculator converts the given percentages into fractions
 
 The percent to fraction calculator converts the given percentages into fractions. If the percent value exceeds 100, the calculator performs percent to mixed number conversion.
 
+[Percent to Fraction Calculator Homepage](https://www.calculator.io/percent-to-fraction-calculator/ "Percent to Fraction Calculator Homepage")
+
 __Shortcode__
 
 Use the Percent to Fraction Calculator shortcode:
