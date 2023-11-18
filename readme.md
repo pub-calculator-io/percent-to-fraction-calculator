@@ -1,4 +1,4 @@
-# Percent to Fraction Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Percent to Fraction Calculator Widget for WordPress
 
 The percent to fraction calculator converts the given percentages into fractions. If the percent value exceeds 100, the calculator performs percent to mixed number conversion.
 
