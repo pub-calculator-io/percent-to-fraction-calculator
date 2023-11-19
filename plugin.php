@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Percent to Fraction Calculator by www.calculator.io
+Plugin Name: CI Percent to fraction calculator
 Plugin URI: https://www.calculator.io/percent-to-fraction-calculator/
 Description: The percent to fraction calculator converts the given percentages into fractions. If the percent value exceeds 100, the calculator performs percent to mixed number conversion.
 Version: 1.0.0
