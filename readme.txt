@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Percent to Frac
 == Screenshots ==
 
 1. The Percent to Fraction Calculator Input Form.
-2. The Percent to Fraction Calculator Calculation Results.
 
 == Installation ==
 

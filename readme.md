@@ -3,7 +3,6 @@
 The percent to fraction calculator converts the given percentages into fractions. If the percent value exceeds 100, the calculator performs percent to mixed number conversion.
 
 ![Percent to Fraction Calculator Input Form](/assets/images/screenshot-1.png "Percent to Fraction Calculator Input Form")
-![Percent to Fraction Calculator Calculation Results](/assets/images/screenshot-2.png "Percent to Fraction Calculator Calculation Results")
 
 ## Installation
 

@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col fraction-to-decimal-calculator,fraction-to-percent-calculator,percentile-calculator  ">
                 			<p class="input__title">Percentage</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="percentage" value="62.5"  />
@@ -44,14 +44,17 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
-                	<script type="text/javascript" src="./assets/js/fractions.js"></script>
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                	<script type="text/javascript" src="./assets/js/fractions.js" defer></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -66,11 +69,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Answer</p>
-	<div class="table-cell table-cell--fraction row">
+	<div class="table-cell table-cell--fraction row animate">
 		<p class="result-text hidden" id="resultWhole"></p>
 		<div class="col fraction-text" id="resultFrac">
 			<p class="result-text text-center" id="resultNum">5</p>
